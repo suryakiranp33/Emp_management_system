@@ -15,7 +15,7 @@ class EmployeeCreateSerializer(serializers.ModelSerializer):
 class EmployeeLeaveCreateSerializer(serializers.ModelSerializer):
     class Meta:
         model = LeaveSystem
-        exclude = ["nature","first_day","last_day"]
+        exclude = ["nature"]
 
 
 
